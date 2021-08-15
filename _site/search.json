@@ -1,0 +1,47 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this blog",
+      "description": "Some additional details about the blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-16T00:45:07+08:00"
+    },
+    {
+      "path": "home.html",
+      "title": "G1-group2 Visual Analytics Project",
+      "author": [],
+      "contents": "\r\n\r\nMini-Challenge 2:\r\nMany of the Abila, Kronos-based employees of GAStech have company cars which are approved for both personal and business use. Those who do not have company cars have the ability to check out company trucks for business use, but these trucks cannot be used for personal business.\r\nEmployees with company cars are happy to have these vehicles, because the company cars are generally much higher quality than the cars they would be able to afford otherwise. However, GAStech does not trust their employees. Without the employees? knowledge, GAStech has installed geospatial tracking software in the company vehicles. The vehicles are tracked periodically as long as they are moving.\r\nThis vehicle tracking data has been made available to law enforcement to support their investigation. Unfortunately, data is not available for the day the GAStech employees went missing. Data is only available for the two weeks prior to the disappearance.\r\nTo promote local businesses, Kronos based companies provide a Kronos Kares benefit card to GASTech employees giving them discounts and rewards in exchange for collecting information about their credit card purchases and preferences as recorded on loyalty cards. This data has been made available to investigators in the hopes that it can help resolve the situation. However, Kronos Kares does not collect personal information beyond purchases.\r\nAs a visual analytics expert assisting law enforcement, your mission is to identify which GASTech employees made which purchases and identify suspicious patterns of behavior. You must cope with uncertainties that result from missing, conflicting, and imperfect data to make recommendations for further investigation.\r\nUse visual analytics to analyze the available data and develop responses to the questions below. In addition, prepare a video that shows how you used visual analytics to solve this challenge. Submission instructions are available here. Entry forms are available for download below.\r\nTasks and Questions:\r\nUsing just the credit and loyalty card data, identify the most popular locations, and when they are popular. What anomalies do you see? What corrections would you recommend to correct these anomalies? Please limit your answer to 8 images and 300 words.\r\nAdd the vehicle data to your analysis of the credit and loyalty card data. How does your assessment of the anomalies in question 1 change based on this new data? What discrepancies between vehicle, credit, and loyalty card data do you find? Please limit your answer to 8 images and 500 words.\r\nCan you infer the owners of each credit card and loyalty card? What is your evidence? Where are there uncertainties in your method? Where are there uncertainties in the data? Please limit your answer to 8 images and 500 words.\r\nGiven the data sources provided, identify potential informal or unofficial relationships among GASTech personnel. Provide evidence for these relationships. Please limit your response to 8 images and 500 words.\r\nDo you see evidence of suspicious activity? Identify 1- 10 locations where you believe the suspicious activity is occurring, and why Please limit your response to 10 images and 500 words.\r\nIf you solved this mini-challenge in 2014, how did you approach it differently this year?\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-16T01:03:47+08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "My Blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-16T00:47:13+08:00"
+    },
+    {
+      "path": "poster.html",
+      "title": "Poster",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-16T01:09:20+08:00"
+    },
+    {
+      "path": "proposal.html",
+      "title": "Project Proposal",
+      "author": [
+        {
+          "name": "Li Yumeng, Liang Yingfang, Shen Xiaojing",
+          "url": {}
+        }
+      ],
+      "date": "06-20-2021",
+      "contents": "\r\n1.0 Introduction\r\nIn the roughly twenty years that Tethys-based GAStech has been operating a natural gas production site in the island country of Kronos, it has produced remarkable profits and developed strong relationships with the government of Kronos.\r\nIn January, 2014, the leaders of GAStech are celebrating their new-found fortune as a result of the initial public offering of their very successful company. In the midst of this celebration, several employees of GAStech go missing. An organization known as the Protectors of Kronos (POK) is suspected in the disappearance, but things may not be what they seem.\r\n2.0 Objectives\r\nThis project aims to analyze the movement and tracking data for GAStech company’s employees who are driving company cars for their personal and professional usage for the two weeks before their disappearance. With the GPS tracking data and credit card spending on each merchant, we can find out the abnormalities and suspicious behaviors, which will give us some insight into missing employees.\r\n3.0 Data Description\r\nThe following datasets are provided:\r\nGPS tracking data (Timestamp, Car ID, latitude, longitude)\r\nCredit card data for GASTech employees (timestamp, location, price, last 4 digits of credit card number)\r\nLoyalty card data for GASTech employees (timestamp, location, price, loyalty card number)\r\nCar assignment data which lists employee, their Car ID, and their position at GASTech\r\nGeospatial files for the city and country which provide context for the GPS data.\r\n4.0 Proposed approach\r\nIdentify popular location by transaction times\r\nUsing the credit and loyalty card data to identify the most popular locations, sorted by descending order.\r\nFigure out popular transaction date\r\nTry to figure out when these locations are popular and observe abnormal situations\r\nMovement track by date\r\nWith map plot with Gps data, we can observe the car movement for last 12 days , colored by different date.\r\nConsumption Amount Distribution for Each Location\r\nWe intend to visualize the consumption distribution of every location within one specific day, try to find a pattern and detect suspicious outliers.\r\nCredit Card Consumption Timeline\r\nWe aim to draw a consumption timeline for every location within one day to find the sequence of transactions in order to detect the informal relationship among card owners.\r\n\r\n5.0 Proposed R Packages\r\nPackage Name\r\nDescription\r\nShiny\r\nInteractive web applications for data visualization\r\nggplot2\r\ntidyverse data visualization package\r\nggmap\r\nVisualize the spatial information of static maps\r\nleaflet\r\nTo create maps within the application\r\ntmap\r\nFor static and interactive maps\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-16T01:09:46+08:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

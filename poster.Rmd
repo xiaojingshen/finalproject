@@ -1,0 +1,11 @@
+---
+title: "Poster"
+
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![](image/13.jpg){width=120%}
